@@ -26,7 +26,7 @@ class App extends Component{
   render(){
       return(
         <div>
-          <p>Initially you have two users, User1 and User2. You can Enable and disable the buttons from user1. You can see changes dynamically in user2. For better Experiennce kindly register and login with emails, user1@gmail.com and user2@gmail.com</p>
+          <p>Initially you have two users, User1 and User2. You can Enable and disable the buttons from user1. You can see changes dynamically in user2. For better Experience kindly register and login with emails, user1@gmail.com and user2@gmail.com</p>
           {this.state.user ? <Home email = {this.state.user.email}/>:<LoginRegister/>}
         </div>
       );    
