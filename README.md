@@ -1,4 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## About this project:
+Initially you have two users, User1 and User2. You can Enable and disable the buttons from user1. You can see changes dynamically in user2. For better Experience kindly register and login with emails, user1@gmail.com and user2@gmail.com
 
 ## Available Scripts
 
